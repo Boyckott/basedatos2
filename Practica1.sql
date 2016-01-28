@@ -50,3 +50,13 @@ CREATE TABLE HORARIOS (
                       );
                       DESCRIBE HORARIOS;
                       
+CREATE SEQUENCE sec_pelicula
+start WITH 1
+increment by 1
+nomaxvalue;
+
+
+--solamente se puede asociar una secuencia a una sola tabla 
+
+--para asociarla se necesita un nuevo objeto de base de datos, este objeto va a ser el que insertara el o los nuevos registros en pelicula : en resumen 
+--jamas se usa un insert into... en oracle cuanto tiene un primary key auto-generado 
