@@ -60,3 +60,10 @@ nomaxvalue;
 
 --para asociarla se necesita un nuevo objeto de base de datos, este objeto va a ser el que insertara el o los nuevos registros en pelicula : en resumen 
 --jamas se usa un insert into... en oracle cuanto tiene un primary key auto-generado 
+
+--Procedimientos almacenados
+
+--Es un objeto de base de datos muy potente porque encapsula logica de programacion de base de datos y una vez generado el procedimiento 
+--PUEDE SER INVOCADO POR UN LENGUAJE EXTERNO por ejempo: -java -c++ -php -c# -c
+
+CREATE OR REPLACE PROCEDURE 
